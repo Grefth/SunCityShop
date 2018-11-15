@@ -12,10 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('starter');
+    return view('welcome');
 });
 
-
-Route::get('/login', function () {
-    return view('login');
+Route::get('/admin/acceso', function () {
+    return view('adminLTE.acceso.dashboard');
 });
+
